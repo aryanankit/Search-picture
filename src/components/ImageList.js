@@ -1,6 +1,6 @@
 import React from 'react'
 import ImageShow from './ImageShow';
-import './ImageList.css'
+import './css/ImageList.css'
 
 const ImageList = ({ images }) => {
     const renderedImages = images.map((image) => {
